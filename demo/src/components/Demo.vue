@@ -14,7 +14,7 @@ const desc = () => {
 
 <template>
   <div class="couner">
-    <p>{{count}}</p>
+    <p style="text-align: center">{{count}}</p>
     <button @click="incr" >incr</button>
     <button @click="desc">desc</button>
   </div>
